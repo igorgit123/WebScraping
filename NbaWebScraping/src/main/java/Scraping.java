@@ -11,7 +11,7 @@ public class Scraping {
     public static void main (String args []){
 
         Scanner in = new Scanner(System.in);
-
+        System.out.println("Vnesite ime igralca: ");
         String igralec=in.nextLine();
         String sUrl=searchUrl(igralec);
         String url=url(sUrl);
